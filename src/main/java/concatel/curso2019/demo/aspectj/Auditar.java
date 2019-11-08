@@ -1,4 +1,4 @@
-package concatel2019.demo.aspectj;
+package concatel.curso2019.demo.aspectj;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

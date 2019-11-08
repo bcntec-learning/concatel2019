@@ -1,4 +1,4 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package concatel2019.demo.entities;
+package concatel.curso2019.demo.entities;
 
-import concatel2019.demo.UserDTO;
+import concatel.curso2019.demo.UserDTO;
 import lombok.Getter;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;

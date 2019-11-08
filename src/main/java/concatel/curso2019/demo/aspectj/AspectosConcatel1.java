@@ -1,4 +1,4 @@
-package concatel2019.demo.aspectj;
+package concatel.curso2019.demo.aspectj;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

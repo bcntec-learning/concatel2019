@@ -1,4 +1,4 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

@@ -1,16 +1,12 @@
 spring:
+  profiles:
+    active: local
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:file:/tmp/testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    data: classpath:/sql/h2/users.sql
-
 ---
 spring:
-  profiles: test, h2
+  profiles: local
   datasource:
-    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-logging:
-  level:
-    org.springframework.jdbc.core: DEBUG
+    data: classpath:/sql/h2/users.sql
 
-  

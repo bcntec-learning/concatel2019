@@ -1,13 +1,10 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
-import concatel2019.demo.entities.MyEnum;
+import concatel.curso2019.demo.entities.MyEnum;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 
-import java.awt.*;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyEditor;
 import java.beans.PropertyEditorSupport;
 
 /**

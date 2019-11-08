@@ -1,7 +1,7 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
-import concatel2019.demo.entities.User;
-import concatel2019.demo.repositorios.UserRepository;
+import concatel.curso2019.demo.entities.User;
+import concatel.curso2019.demo.repositorios.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;

@@ -1,4 +1,4 @@
-package concatel2019.demo.entities;
+package concatel.curso2019.demo.entities;
 
 /**
  * @author fphilip@houseware.es

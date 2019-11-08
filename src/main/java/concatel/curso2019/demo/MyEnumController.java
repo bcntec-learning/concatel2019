@@ -1,10 +1,9 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
-import concatel2019.demo.entities.MyEnum;
+import concatel.curso2019.demo.entities.MyEnum;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**

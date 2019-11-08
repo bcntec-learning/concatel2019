@@ -1,6 +1,5 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
-import concatel2019.demo.entities.User;
 import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package concatel2019.demo.aspectj;
+package concatel.curso2019.demo.aspectj;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -12,7 +12,7 @@ public class AspectosSimple1 implements BeanNameAware {
 
 
     //definicion de donde
-    @Pointcut("execution(public * concatel2019.demo.Controladores+.find*(..))")
+    @Pointcut("execution(public * concatel.curso2019.demo.Controladores+.find*(..))")
     public void pointcut() {
         //nada
     }
@@ -49,7 +49,7 @@ public class AspectosSimple1 implements BeanNameAware {
 
     }
 
-    @AfterThrowing(value = "@annotation(Auditar)", throwing = "e")
+    @AfterThrowing(value = "@annotation(concatel.curso2019.demo.aspectj.Auditar)", throwing = "e")
     public void e(Exception e){
         System.err.println(e.getMessage());
 

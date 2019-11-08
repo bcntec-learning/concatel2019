@@ -1,8 +1,8 @@
-package concatel2019.demo;
+package concatel.curso2019.demo;
 
-import concatel2019.demo.aspectj.Auditar;
-import concatel2019.demo.entities.User;
-import concatel2019.demo.repositorios.UserRepository;
+import concatel.curso2019.demo.entities.User;
+import concatel.curso2019.demo.repositorios.UserRepository;
+import concatel.curso2019.demo.aspectj.Auditar;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
